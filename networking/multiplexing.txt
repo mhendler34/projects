@@ -1,0 +1,23 @@
+multiplexing: multiple signals to travel simultaneoulsy over one medium
+tdm: time division multiplexing
+tdm: divides channel into multiple intervals of time slots
+tdm: time slots are reserved for their designated nodes
+tdm: does not allow multiple signals on line at exact same time
+stdm: statistical time division multiplexing
+stdm: assigns time slots to nodes based on priority
+tdm: does not allow multiple signals on line at exact same time
+fdm: frequency division multiplexing
+fdm: assigns different frequency to create multiple frequency bands
+fdm: signals are modulated into different frequencies and multiplexed to travel simultaneously over single channel
+fdm: allows multiple signals on line at same time
+wdm: wavelength division multiplexing
+wdm: carry multiple light signals simultaneously
+wdm: divides light beam into different wavelengths on single fiber
+wdm: one direction at a time
+bidrectional wdm: supports full-duplex light transmission in both directions at same time
+dwdm: dense wavelength divsion multiplexing
+dwdm: increases number  of channels provided by normal wdm
+dwdm: increase number of channels to 80 - 320 channels
+dwdm: used on high-bandwidt or long distance WAN links
+cwdm: coarse division multiplexing
+cwdm: lowers cost by spacing frequency bands wider apart to allow for cheaper transceiver equipment
