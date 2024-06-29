@@ -7,7 +7,7 @@ Sending data over an analog signal:Modulation
 Converting data into a digital signal for transmission:Encoding
 Can degrade or distort a signal:Noise
 Measured in dB loss:Noise
-Electromagnetic interference:EMI
+emi: electromagnetic interference
 Signal traveling on one wire or cable infringes on the signal traveling over an adjacent wire:Crosstalk
 Loss of signal strength as it travels away from it source:Attenuation
 Regenerate digital signal in its original form without the noise:Repeater
@@ -36,7 +36,7 @@ fiber, carry multiple light signals simultaneously:wavelength division multiplex
 fiber, divides light beam into different wavelengths on single fiber:wavelength division multiplexing
 fiber, one direction at a time:wavelength division multiplexing
 fiber, supports full-duplex light transmission in both directions at same time:bidrectional wavelength division multiplexing
-fiber, dense wavelength divsion multiplexing:dense wavelength divssion multiplexing
+fiber, dense wavelength divsion multiplexing:dense wavelength division multiplexing
 fiber, increases number of channels provided by normal wdm:dense wavelength division multiplexing
 fiber, increase number of channels to 80 - 320 channels:dense wavelength division multiplexing
 fiber, used on high-bandwidth or long distance WAN links:dense wavelength division multiplexing
@@ -49,10 +49,10 @@ protects cable from physical damage:sheath or jacket
 measure of opposition to current flow:impedance
 awg:american wire gage
 larger awg number, smaller diameter of core wire:awg
-better power transfer:lower impedance
-less attentuation of data signal over distance:higher impedance
-more effective for transmitting data:50 ohms
-more effective for receiving devices:75 ohms
+better power transfer(higher/lower impedance):lower impedance
+less attentuation of data signal over distance(higher/lower impedance):higher impedance
+more effective for transmitting data(ohms):50 ohms
+more effective for receiving devices(ohms):75 ohms
 cable, cheaper, but more attentuation than rg-6:rg-59
 cable, deliver broadband cable internet and cable tv:rg-6
 attaches to cable so center of cable extends into center of connector:f-connector
@@ -62,7 +62,7 @@ half-duplex to transmit data:twinax
 supporting much higher throughput than coax:twinax
 inexpensive for short, high-speed connections:twinax
 cable designed to handle high-speed connections at very short distances:direct attach copper
-aka DAC:twinax
+direct attach coppert aka:twinax
 limited in distance:twinax
 cheaper than fiber:twinax
 consumes less power than fiber:twinax
@@ -81,47 +81,47 @@ more twists per foot, more resistant the pair will be to crosstalk:twist-ratio
 (utp/stp?) does not contain additional metal shielding for twisted pairs:utp
 fire-retardant jacket, for use in ceiling spaces with air flow:plenum grade cable
 fire-retardant jacket, for use in ceiling spaces NOT designed for air flow:riser rated cable
-mdi:dmedium dependent interface
-mdi-x:mdi-medium dependent interface crossover
+mdi:medium dependent interface
+mdi-x:medium dependent interface crossover
 loopback plug verifies cable and network port are good:loopback adapter
 cable which allows signal to pass straight through:straight-through cable
-pin1:pin1
-pin2:pin2
-pin3:pin3
-pin4:pin4
-pin5:pin5
-pin6:pin6
-pin7:pin7
-pin8:pin8
+straight-through cable pin1:pin1
+straight-through cable pin2:pin2
+straight-through cable pin3:pin3
+straight-through cable pin4:pin4
+straight-through cable pin5:pin5
+straight-through cable pin6:pin6
+straight-through cable pin7:pin7
+straight-through cable pin8:pin8
 cable which has transmit and receive wires reversed, connect like devices:crossover cable
 fast ethernet (2 or 4 cross pairs?):2
-pin1:pin3
-pin2:pin6
-pin3:pin1
-pin4:pin4
-pin5:pin5
-pin6:pin2
-pin7:pin7
-pin8:pin8
+crossover cable pin1:pin3
+crossover cable pin2:pin6
+crossover cable pin3:pin1
+crossover cable pin4:pin4
+crossover cable pin5:pin5
+crossover cable pin6:pin2
+crossover cable pin7:pin7
+crossover cable pin8:pin8
 gigabit ethernet (2 or 4 cross pairs?):4
-pin1:pin3
-pin2:pin6
-pin3:pin1
-pin4:pin7
-pin5:pin8
-pin6:pin2
-pin7:pin4
-pin8:pin5
+crossover cable (gigabit) pin1:pin3
+crossover cable (gigabit) pin2:pin6
+crossover cable (gigabit) pin3:pin1
+crossover cable (gigabit) pin4:pin7
+crossover cable (gigabit) pin5:pin8
+crossover cable (gigabit) pin6:pin2
+crossover cable (gigabit) pin7:pin4
+crossover cable (gigabit) pin8:pin5
 reverses all wires without regard to how they are paired:rollover cable
-pin1:pin8
-pin2:pin7
-pin3:pin6
-pin4:pin5
-pin5:pin4
-pin6:pin3
-pin7:pin2
-pin8:pin1
-rollover cable:console cable
+rollover cable pin1:pin8
+rollover cable pin2:pin7
+rollover cable pin3:pin6
+rollover cable pin4:pin5
+rollover cable pin5:pin4
+rollover cable pin6:pin3
+rollover cable pin7:pin2
+rollover cable pin8:pin1
+another name for rollover cable:console cable
 smf:single mode fiber
 8 to 10 microns in diameter:single mode fiber
 LASER generated light travels single path over the core:single mode fiber
@@ -140,18 +140,18 @@ fiber connectors:fiber connectors
 (smf/mmf?) connectors designed to reduce back reflection:single mode fiber
 extended tip of connector that makes contact with receptacle jack:ferrule
 return of light signal back into the fiber:back reflection
-4 main fiber connector types: lc sc st mt-rj
+4 main fiber connector types: sc st lc mt-rj
 subscriber connector:sc
 sc:subscriber connector
 straight tip:st
 st:straight tip
-straight tip connector support full-duplex:no
+straight tip connector support full-duplex (yes/no):no
 local connector(more common):lc
 lc(more common):local connector
-local connector support full-duplex:yes
+local connector support full-duplex (yes/no):yes
 mechanical transfer registered jack(more common):mt-rj
 mt-rj(more common):mechanical transfer registered jack
-mt-rj support full-duplex:yes
+mt-rj support full-duplex (yes/no):yes
 fiber type mismatch:fiber cable problem
 wavelength mismatch:fiber cable problem
 dirty connectors:fiber cable problem

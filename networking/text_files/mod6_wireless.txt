@@ -37,7 +37,7 @@ ___ ___ ___ ___ next burst goes to next frequency in the sequence:frequency hopp
 direct sequence spread spectrum:dsss
 dsss:direct sequence spread spectrum
 data streams are divided and coded into small chunks:direct sequence spread spectrum
-chunks are spread over all available frequencies at same time:direct spread spectrum
+chunks are spread over all available frequencies at same time:direct sequence spread spectrum
 process of dividing and encoding data:chipping
 relative strength over 3-D area of all electromagnecti energy antenna sends/receives:radiation pattern
 ___ ___ issues wireless signals along a single direction:directional antenna
@@ -54,7 +54,57 @@ ___ waves direction, speed and wavelength are altered as it travels:refraction
 ___ when waves encounter obstacles and bounce back:reflection
 ___ when wireless signal encounters object with smaller dimensions it scatters:scattering
 ___ wireless signal split into secondary waves:diffraction
-WLAN standards operate at what layers of OSI model(enter number):1/2
-
-
-
+WLAN operate at what layers of OSI model(enter number):1/2
+NEXT SECTION, 802.11 Innovations increase speed and reliability (enter ok):ok
+Bonding 2 adjacent 20MHz channels:channel bonding
+(true/false) bonding 2 20MHz channels more than doubles bandwidth?:true
+(true/false) wireless signals propagate in multipath fashion?:true
+(true/false) multiple signals do not arrive at receiver at same time?:true
+MIMO:multiple input multiple output
+How does MIMO work:adjust phase or amplitude of signals from each antenna
+(true/false) MIMO improves transmission:true
+multiuser multiple input multiple output:MU-MIMO
+MU-MIMO:multiuser multiple input multiple output
+multiple atennas to service multiple clients simultaneously:MU-MIMO
+MU-MIMO (definition): multiple atennas to service multiple clients simultaneously
+Orthagonal Frequency Division Multiple Access:OFDMA
+OFDMA:orthagonal frequency division multiple access
+(true/false) OFDMA supports more efficient multiuser functionality:true
+OFDMA (definition):supports more efficient multiuser functionality
+combine multiple data frames into one larger frame: frame aggregation
+frame aggregation:combine multiple data frames into one larger frame
+(true/false) Frame Aggregation reduces number of messages to negotiate:true
+CSMA/CA:carrier sense multiple access with collision avoidance
+(true/false) CSMA/CA minimizes collision but cannot detect collision:true
+independent basic service set:ibss
+ibss:independent basic service set
+(true/false) IBSS uses ad hoc topology:true
+small number of nodes closely positioned to each other:ibss
+basic service set:bss
+bss:basic service set
+(true/false) BSS uses infrastructure topology:true
+group of nodes share access point:bss
+extended service set:ess
+ess:extended service set
+(true/false) ESS uses mesh topology:true
+several access points work as peer devices on same network:ess
+WiFi Network Security (type ok):ok
+wired equivalent privacy:wep
+(true/false) WEP is considered legacy due to lack of security:true
+why is wep insecure:same network key and key is static
+TKIP:temporal key integrity protocol
+(true/false) TKIP for use with legacy WEP-based devices:true
+(true/false) TKIP deprecated in favor of AES:true
+wifi protected access:wpa
+(true/false)wpa is more secure than wep:true
+(true/false) wpa dynamically assigns every transmission its own key:true
+wifi protected access version 2:wpa2
+(true/false) WPA2 uses CCMP to improve wireless security:true
+AES:advanced encryption standard
+WPA-PSK (PSK stand for):pre-shared key
+Remote Authentication Dial-In User Service:radius
+RADIUS:remote athentication dial-in user service
+(true/false) RADIUS server is a secure authentication server?:true
+EAP:extensible authentication protocol
+(true/false) supplicant, authenticator, authentication server are 3 main entities of EAP:true
+what are the three main entities of EAP:supplicant authenticator authentication server
